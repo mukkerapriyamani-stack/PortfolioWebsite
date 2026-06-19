@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Professional Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <b class="logo">MyCreativeSpace</b>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#resume">Resume</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+
+    <div id="home" class="section home-bg">
+        <div class="container hero-container">
+            <h1 class="hero-name">Mukkera Priyamani</h1>
+            <p class="hero-subtitle">Creative Designer & Front-End Developer</p>
+            <p>I build interactive, responsive, and beautifully designed digital solutions.</p>
+            <a href="#contact" class="btn btn-light">Let's Connect</a>
+        </div>
+    </div>
+
+    <div id="about" class="section about-bg">
+        <div class="container">
+            <h2>About Me</h2>
+            
+            <div class="about-layout">
+                <div class="photo-box">
+                    <img id="profile-pic" src="photo.png" alt="Profile Picture">
+                    <br><br>
+                    <a id="view-resume-link" href="resume.docx" target="_blank" class="view-link">📄 Download Resume</a>
+                </div>
+
+                <div class="bio-box">
+                    <h3>My Story</h3>
+                    <div class="static-text">
+                        <p>Hello! I am a passionate front-end developer who loves turning complex design mockups into clean, semantic, and elegant user interfaces.</p>
+                        <p>When I'm not writing code, you can find me exploring graphic design trends, experimenting with photography, or reading up on the latest web performance frameworks.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="resume" class="section resume-bg">
+        <div class="container">
+            <h2>Professional Overview</h2>
+            
+            <div class="resume-container">
+                <div class="static-resume-card">
+                    
+                    <h3>🎓 EDUCATION</h3>
+                    <p><strong>B.Tech in Computer Science</strong> | Lakireddy Bali Reddy College of Engineering (Graduating 2028)</p>
+                    <p> I am a fresher looking to contribute my skills and to increase my knowledge .</p>
+                    <p>• Relevant Coursework: Data Structures, Web Engineering, UI/UX Design Models.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="skills" class="section skills-bg">
+        <div class="container">
+            <h2>Core Expertise</h2>
+            <p>Click the action button below to visualize my engineering skill levels!</p>
+            <button type="button" class="btn btn-dark" id="animate-skills-btn">Visualize Skills</button>
+            
+            <div class="skills-wrapper">
+                <div class="skill-item">
+                    <p><b>HTML5 & CSS3</b></p>
+                    <div class="progress-bg"><div class="progress-bar" id="html-bar"></div></div>
+                </div>
+                <div class="skill-item">
+                    <p><b>JavaScript (ES6+)</b></p>
+                    <div class="progress-bg"><div class="progress-bar" id="js-bar"></div></div>
+                </div>
+                <div class="skill-item">
+                    <p><b>Responsive Frameworks</b></p>
+                    <div class="progress-bg"><div class="progress-bar" id="framework-bar"></div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="projects" class="section projects-bg">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="projects-layout">
+                
+                <div class="project-card">
+                    <h3>🛒 E-Commerce Platform</h3>
+                    <p>A fully responsive online store featuring global state management, interactive cart drawers, and a simulated checkout flow process built using vanilla logic components.</p>
+                </div>
+                
+                <div class="project-card">
+                    <h3>📊 SaaS Analytics Dashboard</h3>
+                    <p>An administrative user panel designed for micro-SaaS monitoring. Displays live data feeds, customized chart elements, and advanced data filtering tables.</p>
+                </div>
+                
+                <div class="project-card">
+                    <h3>📝 Real-time Task Manager</h3>
+                    <p>A lightweight productivity application equipped with drag-and-drop mechanics, workspace column filters, and locally sustained cache memory tracking.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="section contact-bg">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            
+            <form id="contact-form">
+                <label>Full Name:</label>
+                <input type="text" id="name" required>
+                
+                <label>Email Address:</label>
+                <input type="email" id="email" required>
+                
+                <label>Your Message:</label>
+                <textarea id="message" rows="4" required></textarea>
+                
+                <button type="submit" class="btn btn-light">Drop a Message</button>
+            </form>
+
+            <div class="social-links-container">
+                <h3>Connect With Me Directly</h3>
+                <div class="social-grid">
+                    <a href="mailto:mukkerapriyamani@gmail.com" class="social-box mail-link">
+                        <span>📧 Email Me</span>
+                    </a>
+                    
+                    <a href="https://www.linkedin.com/in/priya-mani-b2a28a3a5" target="_blank" class="social-box linkedin-link">
+                        <span>💼 LinkedIn</span>
+                    </a>
+                    
+                    <a href="https://github.com/mukkerapriyamani-stack" target="_blank" class="social-box github-link">
+                        <span>💻 GitHub</span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
